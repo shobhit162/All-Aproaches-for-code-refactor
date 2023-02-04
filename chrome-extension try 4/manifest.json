@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Code Refractor",
+  "version": "1.0",
+  "permissions": ["contextMenus", "tabs"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
